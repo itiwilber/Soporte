@@ -1,6 +1,6 @@
 <?php
 
-namespace Cinema\Jobs;
+namespace activalab\Jobs;
 
 use Illuminate\Bus\Queueable;
 

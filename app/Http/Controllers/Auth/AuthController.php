@@ -1,10 +1,10 @@
 <?php
 
-namespace Cinema\Http\Controllers\Auth;
+namespace activalab\Http\Controllers\Auth;
 
-use Cinema\User;
+use activalab\User;
 use Validator;
-use Cinema\Http\Controllers\Controller;
+use activalab\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

@@ -151,10 +151,10 @@ return [
         /*
          * Application Service Providers...
          */
-        Cinema\Providers\AppServiceProvider::class,
-        Cinema\Providers\AuthServiceProvider::class,
-        Cinema\Providers\EventServiceProvider::class,
-        Cinema\Providers\RouteServiceProvider::class,
+        activalab\Providers\AppServiceProvider::class,
+        activalab\Providers\AuthServiceProvider::class,
+        activalab\Providers\EventServiceProvider::class,
+        activalab\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
 
     ],

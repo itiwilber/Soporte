@@ -1,8 +1,8 @@
 <?php
 
-namespace Cinema\Http\Requests;
+namespace activalab\Http\Requests;
 
-use Cinema\Http\Requests\Request;
+use activalab\Http\Requests\Request;
 
 class UserUpdateRequest extends Request
 {

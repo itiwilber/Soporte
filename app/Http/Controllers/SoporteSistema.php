@@ -1,10 +1,10 @@
 <?php
 
-namespace Cinema\Http\Controllers;
+namespace activalab\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use Cinema\Http\Requests;
+use activalab\Http\Requests;
 
 class SoporteSistema extends Controller
 {

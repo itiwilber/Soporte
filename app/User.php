@@ -1,6 +1,6 @@
 <?php
 
-namespace Cinema;
+namespace activalab;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

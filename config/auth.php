@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Cinema\User::class,
+            'model' => activalab\User::class,
         ],
 
         // 'users' => [

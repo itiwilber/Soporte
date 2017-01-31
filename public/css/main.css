@@ -15,7 +15,7 @@ body {
 	z-index: 3;
 	height: 44px;
 	background-color: #fff;
-	border-bottom: 3px solid #fff;
+	border-bottom: 3px solid #2a3f54;
 }
 /* logo in header(mobile version) and side-nav (tablet & desktop) */
 .logo {
@@ -24,10 +24,10 @@ body {
 	font-weight: 700;
 }
 .header .logo {
-	color: #233245;
+	color: #2a3f54;
 }
 .side-nav .logo {
-	background-color: #35475e;
+	background-color: #2a3f54;
 	color: #fff;
 }
 .header .logo {
@@ -38,7 +38,7 @@ body {
 	z-index: 1;
 	padding: 10px;
 	font-weight: 700;
-	color: #233245;
+	color: #2a3f54;
 }
 .logo  i {
 	font-size: 22px;
@@ -58,7 +58,7 @@ body {
 .nav-trigger span, .nav-trigger span:before, span:after {
 	width: 20px;
 	height: 2px;
-	background-color: #35475e;
+	background-color: #2a3f54;
 	position: absolute;
 }
 .nav-trigger span {
@@ -78,20 +78,36 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 100vh;
-	background-color: #35475e;
+	background-color: #2a3f54;
 	z-index: 1;
 	display: none;
 }
 .side-nav.visible {
 	display: block;
 }
+.side-nav .icono-der{
+	float: right;
+}
+.side-nav .menu ul{
+	display: none;
+}
+.side-nav .menu ul li a{
+	background: #2a3f54;
+	color: #e9e9e9;
+}
+
+.side-nav .menu .activado > a{
+	background: #1a95d5;
+	color: #fff;
+}
+
 .side-nav ul {
 	margin: 0;
 	padding: 0;
 }
 .side-nav ul li {
 	padding: 16px 16px;
-	border-bottom: 1px solid #3c506a;
+	border-bottom: 1px solid #2a3f54;
 	position: relative;
 }
 .side-nav ul li.active:before {
@@ -104,10 +120,11 @@ body {
 	background-color: #fff;
 }
 .side-nav ul li:hover{
-	background: #3c506a !important;
-	color: #033145 !important;
+	background: #2a3f54 !important;
+	color: #2a3f54 !important;
 	border-top: 3px solid #fff; 
 }
+
 .side-nav ul li a {
 	color: #fff;
 	display: block;
@@ -134,8 +151,8 @@ body {
 	overflow: hidden;
 }
 .main-content .title {
-	background-color: #eef1f7;
-	border-bottom: 1px solid #b8bec9;
+	background-color: #2a3f54;
+	border-bottom: 1px solid #2a3f54;
 	padding: 10px 20px;
 	font-weight: 700;
 	color: #333;
@@ -154,7 +171,7 @@ body {
 /* set element styles to fit tablet and higher(desktop) */
 @media screen and (min-width: 600px) {
 	.header {
-		background-color: #35475e;
+		background-color: #2a3f54;
 		z-index: 1;
 	}
 	.header .logo {
